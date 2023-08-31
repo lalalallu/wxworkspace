@@ -1,0 +1,6 @@
+<view class="pageview">
+    <view class="box {{flag?'bg1':'bg2'}}" bind:tap="click">
+        
+    </view>
+    <button type="warn" bindtap="click">点击</button>
+</view>
