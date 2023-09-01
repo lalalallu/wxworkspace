@@ -10,7 +10,8 @@
     "pages/zhuye/zhuye",
     "pages/myself/myself",
     "pages/swiper/swiper",
-    "pages/swiper2/swipe2"
+    "pages/swiper2/swipe2",
+    "pages/swiper3/swiper3"
   ],
   "window": {
     "backgroundTextStyle": "light",
