@@ -1,0 +1,43 @@
+<view class="pageview">
+    <swiper class="swiperview" indicator-dots="{{true}}" 
+    indicator-color="rgb(200, 206, 209)" indicator-active-color="red" 
+    autoplay="{{true}}" interval="2000" duration="400" circular="{{true}}">
+        <!-- indicator-dots是否显示面板指示点 -->
+        <!-- interval设置页面展示时间 -->
+        <!-- duration控制页面切换到另一页面所用的时间 -->
+        <!-- circular控制是否采用衔接滑动 -->
+        <block wx:for="{{list}}" wx:for-item="data">
+            <swiper-item class="itemview">
+                <image class="cimg" src="{{data}}" mode="aspectFit"></image>
+            </swiper-item>
+        </block>
+        <!-- <swiper-item class="itemview">
+            <image class="cimg" src="/res/images/麋鹿.png" mode="aspectFit"></image>
+        </swiper-item>
+        <swiper-item class="itemview">
+            <image class="cimg" src="/res/images/驯鹿.png" mode="aspectFit"></image>
+        </swiper-item>
+        <swiper-item class="itemview">
+            <image class="cimg" src="/res/images/绵阳.png" mode="aspectFit"></image>
+        </swiper-item>
+        <swiper-item class="itemview">
+            <image class="cimg" src="/res/images/站立鳄鱼.png" mode="aspectFit"></image>
+        </swiper-item> -->
+    </swiper>
+    <swiper class="swiperview2" ndicator-color="rgb(200, 206, 209)" 
+    indicator-active-color="red" autoplay="{{true}}" interval="1750" 
+    duration="400" circular="{{true}}" vertical="{{true}}"> 
+        <block wx:for="{{news}}">
+            <swiper-item>
+            <view class="box">
+                <view class="imgbox">
+                    <image src="{{item.icon}}" class="cimg" />
+                </view>
+                <view class="textbox">
+                    <text>{{item.text}}</text>
+                </view>
+            </view>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

@@ -9,7 +9,7 @@
       "list": [
         {
           "name": "test",
-          "pathName": "pages/news/news",
+          "pathName": "pages/swiper2/swipe2",
           "query": "",
           "launchMode": "default",
           "scene": null

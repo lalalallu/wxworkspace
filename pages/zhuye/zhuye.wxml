@@ -1,0 +1,30 @@
+<view class="pageview">
+    <view class="topview">
+        <image src="/res/images/river.png" class="cimg" />
+    </view>
+    <view class="contentview">
+        <block wx:for="{{list}}" wx:for-item="list">
+            <view class="menubox" bindtap="clickmenu" data-index="{{index}}">
+                <view class="imgbox">
+                    <image src="{{list.icon}}" class="cimg" mode="aspectFit" />
+                </view>
+                <view class="textbox">
+                    <text class="tv1 {{index === currentIndex? 'tv2':null}}">{{list.text}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+    <view class="hotview">
+        <block wx:for="{{productlist}}" wx:for-item="list">
+            <view class="productbox">
+                <view class="imgview">
+                    <image src="{{list.icon}}" class="cimg" mode="aspectFit" />
+                </view>
+                <view class="textview">
+                    <text class="tv3">{{list.name}}</text>
+                    <text class="tv4">价格：{{list.price}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

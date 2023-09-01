@@ -6,7 +6,11 @@
     "pages/forlist/forlist",
     "pages/forlist2/forlist2",
     "pages/click/click",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/zhuye/zhuye",
+    "pages/myself/myself",
+    "pages/swiper/swiper",
+    "pages/swiper2/swipe2"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,5 +19,32 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "主页",
+        "iconPath": "/res/images/home.png",
+        "selectedIconPath": "/res/images/home-red.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "/res/images/see.png",
+        "selectedIconPath": "/res/images/see-red.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "/res/images/my.png",
+        "selectedIconPath": "/res/images/my-red.png"
+      }
+    ]
+  }
 }
