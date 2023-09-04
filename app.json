@@ -11,7 +11,10 @@
     "pages/myself/myself",
     "pages/swiper/swiper",
     "pages/swiper2/swipe2",
-    "pages/swiper3/swiper3"
+    "pages/swiper3/swiper3",
+    "pages/swiper4/swiper4",
+    "pages/swiper5/swiper5",
+    "pages/swiper6/swiper6"
   ],
   "window": {
     "backgroundTextStyle": "light",

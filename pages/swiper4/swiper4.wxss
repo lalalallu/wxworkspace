@@ -1,0 +1,49 @@
+.pageview {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(229, 246, 255); */
+}
+.topview{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.itemview{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.tv{
+    font-size: 20px;
+    color: black;
+    font-family: 宋体;
+}
+.tv1{
+    font-size: 22px;
+    color: rgb(255, 177, 190);
+    font-family: 宋体;
+}
+.bg1{
+    border-bottom: 4px solid pink;
+}
+.swiperview{
+    width: 100%;
+    height: 90%;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+}
+.box{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(186, 247, 229); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

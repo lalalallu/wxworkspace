@@ -1,0 +1,15 @@
+<view class="pageview">
+    <view class="leftview">
+        <block wx:for="{{leftlist}}">
+            <view class="itemview {{index === currentIndex?'bg1':null}}" bindtap="clickitem" data-index="{{index}}">
+                <text class="tv {{index === currentIndex?'tv1':null}}">{{item}}</text>
+            </view>
+        </block>
+    </view>
+    <swiper class="swiperview" indicator-dots="true" circular="{{true}}" vertical="{{true}}" current="{{currentIndex}}" bindchange="changepage">
+        <swiper-item class="" item-id="">1</swiper-item>
+        <swiper-item class="" item-id="">2</swiper-item>
+        <swiper-item class="" item-id="">3</swiper-item>
+        <swiper-item class="" item-id="">4</swiper-item>
+    </swiper>
+</view>
