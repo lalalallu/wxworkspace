@@ -14,7 +14,11 @@
     "pages/swiper3/swiper3",
     "pages/swiper4/swiper4",
     "pages/swiper5/swiper5",
-    "pages/swiper6/swiper6"
+    "pages/swiper6/swiper6",
+    "pages/two/two",
+    "pages/three/three",
+    "pages/shouye/shouye",
+    "pages/xiangqing/xiangqing"
   ],
   "window": {
     "backgroundTextStyle": "light",

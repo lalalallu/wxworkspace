@@ -1,0 +1,4 @@
+<view class="pageview">
+    <text class="">page2</text>
+    <button type="primary" bindtap="click">返回</button>
+</view>
