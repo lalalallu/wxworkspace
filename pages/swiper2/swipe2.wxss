@@ -1,0 +1,52 @@
+.pageview {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 246, 255);
+}
+.swiperview{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+}
+.swiperview2{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+}
+.itemview{
+    /* width: 100%;
+    height: 30%; */
+    /* swiper-item设置宽高无用 */
+    /* border: 1px solid black; */
+    background-color: rgb(186, 247, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(186, 247, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cimg{
+    width: 100%;
+    height: 100%;
+}
+.imgbox{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.textbox{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

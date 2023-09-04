@@ -1,0 +1,13 @@
+<view class="pageview">
+    <block wx:for="{{list}}" wx:for-item="row">
+        <view class="lineview">
+            <block wx:for="{{list}}" wx:for-item="col">
+                <block wx:if="{{row>=col}}">
+                    <view class="linebox">
+                        <text class="tv">{{row}}*{{col}}={{row*col}}</text>
+                    </view>
+                </block>
+            </block>
+        </view>
+    </block>
+</view>

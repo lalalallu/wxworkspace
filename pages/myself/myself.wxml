@@ -1,0 +1,27 @@
+<view class="pageview">
+    <view class="topview">
+        <view class="headleft">
+            <image src="/res/images/river.png" class="cimg" />
+        </view>
+        <view class="headright">
+            <text class="tv">姓名：{{name}}</text>
+            <text class="tv">学校：{{school}}</text>
+            <text class="tv">手机：{{phone}}</text>
+        </view>
+    </view>
+    <view class="bottomview">
+        <block wx:for="{{list}}" wx:for-item="list">
+            <view class="linebox">
+                <view class="imgbox">
+                    <image src="{{list.iconleft}}" class="cimg" mode="aspectFit" />
+                </view>
+                <view class="textbox">
+                    <text>{{list.text}}</text>
+                </view>
+                <view class="imgbox2">
+                    <image src="{{list.iconright}}" class="cimg" mode="aspectFit" />
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

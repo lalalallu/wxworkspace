@@ -1,0 +1,14 @@
+<view class="pageview">
+    <view class="topview">
+        <view class="leftview">
+            <view class="imgbox">
+                <image class="img" src="{{avater}}"></image>
+            </view>
+        </view>
+        <view class="rightview">
+        <text>姓名:{{name}}</text>
+        <text>电话:{{phone}}</text>
+        <text>地址:{{address}}</text>
+        </view>
+    </view>
+</view>

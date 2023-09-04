@@ -1,0 +1,19 @@
+<view class="pageview">
+    <view class="topview">
+        <text class="tv">
+            我的新闻栏
+        </text>
+    </view>
+    <view class="contentview">
+        <block wx:for="{{data}}" wx:for-item="data">
+        <view class="lineview">
+            <view class="avaterview {{index===activeItemIndex?'bg1':'bg2'}}" bindtap="clickavater" data-index="{{index}}">
+                <image class="avaters" src="{{data.avater}}" mode="aspectFill"></image>
+            </view>
+            <view class="newview {{index===activeNewItemIndex?'bg1':'bg2'}}" bindtap="clicknew" data-index="{{index}}">
+                <text class="tv">{{data.new}}</text>
+            </view>
+        </view>
+    </block>
+    </view>
+</view>

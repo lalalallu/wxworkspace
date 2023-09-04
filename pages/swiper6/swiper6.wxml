@@ -1,0 +1,23 @@
+<view class="pageview">
+    <swiper class="swiperview" indicator-dots="true" circular="{{true}}" current="{{currentIndex}}" bindchange="changepage">
+        <block wx:for="{{list}}">
+            <swiper-item>
+                <view class="mview">
+                    <text class="mtv">{{item.text}}</text>
+                </view>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="bottomview">
+        <block wx:for="{{list}}">
+            <view class="itemview {{index === currentIndex?'bg1':null}}" bindtap="clickitem" data-index="{{index}}">
+                <view class="imgbox">
+                    <image src="{{item.icon}}" class="cimg" />
+                </view>
+                <view class="textbox">
+                    <text class="tv {{index === currentIndex?'tv1':null}}">{{item.text}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

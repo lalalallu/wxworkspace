@@ -1,0 +1,43 @@
+/* pages/threee/three.wxss */
+.pageview {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(200, 206, 209); */
+}
+
+.topview {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    /* border-bottom: 1px solid white; */
+    background-color: rgb(196, 223, 237);
+}
+.leftview{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.rightview{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    /* align-items: center; */
+}
+.imgbox{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    border: 1px solid black;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,33 @@
+<view class="pageview">
+    <swiper class="swiperview" indicator-dots="{{true}}" 
+    indicator-color="rgb(200, 206, 209)" indicator-active-color="red" 
+    circular="{{true}}" current="{{currentIndex}}">
+        <swiper-item>
+            <view class="box">
+                <text>页面一</text>
+                --------------------
+                <button type="primary" bindtap="clickto2">页面二</button>
+                --------------------
+                <button type="primary" bindtap="clickto3">页面三</button>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="box">
+                <text>页面二</text>
+                --------------------
+                <button type="primary" bindtap="clickto1">页面一</button>
+                --------------------
+                <button type="primary" bindtap="clickto3">页面三</button>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="box">
+                <text>页面三</text>
+                --------------------
+                <button type="primary" bindtap="clickto1">页面一</button>
+                --------------------
+                <button type="primary" bindtap="clickto2">页面二</button>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>

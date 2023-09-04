@@ -1,0 +1,4 @@
+<view class="pageview">
+    <text class="">page1</text>
+    <button type="primary" bindtap="click">点击跳转</button>
+</view>

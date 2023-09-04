@@ -1,0 +1,30 @@
+.pageview {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+/* .lineview {
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+/* } */ 
+.box{
+    width: 30%;
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg1 {
+    background-color: aqua;
+}
+
+.bg2 {
+    background-color: bisque;
+}

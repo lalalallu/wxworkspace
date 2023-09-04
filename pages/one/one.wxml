@@ -1,0 +1,102 @@
+<view class="pageview">
+    <view class="topview">
+        <view class="avaterview">
+            <text class="" selectable="false" space="false" decode="false">头像</text>
+        </view>
+        <view class="nameview">
+            <text class="">姓名</text>
+        </view>
+        <view class="phoneview">
+            <text class="">电话</text>
+        </view>
+        <view class="addrview">
+            <text class="">地址</text>
+        </view>
+    </view>
+    <!-- <view class="lineview">
+        <view class="avaterview">
+            <image class="avaters" src="{{item.avater}}" mode="aspectFill" ></image>
+        </view>
+        <view class="nameview">
+            <text class="">{{item.name}}</text>
+        </view>
+        <view class="phoneview">
+            <text class="">{{item.phone}}</text>
+        </view>
+        <view class="addrview">
+            <text class="">{{item.addr}}</text>
+        </view>
+    </view>
+    <view class="lineview">
+        <view class="avaterview">
+            <image class="avaters" src="{{item.avater}}" mode="aspectFill" ></image>
+        </view>
+        <view class="nameview">
+            <text class="">{{data[1].name}}</text>
+        </view>
+        <view class="phoneview">
+            <text class="">{{data[1].phone}}</text>
+        </view>
+        <view class="addrview">
+            <text class="">{{data[1].addr}}</text>
+        </view>
+    </view>
+    <view class="lineview">
+        <view class="avaterview">
+            <image class="avaters" src="{{item.avater}}" mode="aspectFill" ></image>
+        </view>
+        <view class="nameview">
+            <text class="">{{data[2].name}}</text>
+        </view>
+        <view class="phoneview">
+            <text class="">{{data[2].phone}}</text>
+        </view>
+        <view class="addrview">
+            <text class="">{{data[2].addr}}</text>
+        </view>
+    </view>
+    <view class="lineview">
+        <view class="avaterview">
+            <image class="avaters" src="{{item.avater}}" mode="aspectFill" ></image>
+        </view>
+        <view class="nameview">
+            <text class="">{{data[3].name}}</text>
+        </view>
+        <view class="phoneview">
+            <text class="">{{data[3].phone}}</text>
+        </view>
+        <view class="addrview">
+            <text class="">{{data[3].addr}}</text>
+        </view>
+    </view>
+    <view class="lineview">
+        <view class="avaterview">
+            <image class="avaters" src="{{item.avater}}" mode="aspectFill" ></image>
+        </view>
+        <view class="nameview">
+            <text class="">{{data[4].name}}</text>
+        </view>
+        <view class="phoneview">
+            <text class="">{{data[4].phone}}</text>
+        </view>
+        <view class="addrview">
+            <text class="">{{data[4].addr}}</text>
+        </view>
+    </view> -->
+    <block wx:for="{{data}}" wx:for-item="data">
+        <view class="lineview">
+            <view class="avaterview" bindtap="clickavater">
+                <image class="avaters" src="{{data.avater}}" mode="aspectFill"></image>
+            </view>
+            <view class="nameview">
+                <text class="">{{data.name}}</text>
+            </view>
+            <view class="phoneview" bindtap="clicknum" data-number="{{data.phone}}">
+                <text class="">{{data.phone}}</text>
+            </view>
+            <view class="addrview">
+                <text class="">{{data.addr}}</text>
+            </view>
+        </view>
+    </block>
+</view>

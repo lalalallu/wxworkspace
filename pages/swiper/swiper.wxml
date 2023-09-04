@@ -1,0 +1,37 @@
+<view class="pageview">
+    <swiper class="swiperview" indicator-dots="{{true}}" 
+    indicator-color="rgb(200, 206, 209)" indicator-active-color="red" 
+    autoplay="{{true}}" interval="2000" duration="400" circular="{{true}}">
+    <!-- indicator-dots是否显示面板指示点 -->
+    <!-- interval设置页面展示时间 -->
+    <!-- duration控制页面切换到另一页面所用的时间 -->
+    <!-- circular控制是否采用衔接滑动 -->
+        <swiper-item class="itemview">
+            <text class="">页面一</text>
+        </swiper-item>
+        <swiper-item class="">
+            <view class="box">
+                <text class="">页面二</text>
+            </view>
+        </swiper-item>
+        <swiper-item class="itemview">
+            <text class="">页面三</text>
+        </swiper-item>
+    </swiper>
+    <swiper class="" indicator-dots="true" indicator-color="rgb(200, 206, 209)" 
+    indicator-active-color="red" autoplay="true" interval="2000" 
+    duration="400" circular="true" vertical="true">
+    <!-- vertical滑动方向是否为纵向 -->
+        <swiper-item class="itemview">
+            <text class="">页面一</text>
+        </swiper-item>
+        <swiper-item class="">
+            <view class="box">
+                <text class="">页面二</text>
+            </view>
+        </swiper-item>
+        <swiper-item class="itemview">
+            <text class="">页面三</text>
+        </swiper-item>
+    </swiper>
+</view>

@@ -1,0 +1,36 @@
+<view class="pageview">
+    <!-- <view class="lineview">
+        <text>{{list[0]}}</text>
+    </view> -->
+    <!-- <block wx:for="{{list}}">
+        <view class="lineview">
+            <text>{{item}}</text>
+            <text>下标值{{index}}</text>
+        </view>
+    </block> -->
+    <!-- <block wx:for="{{list}}">
+        <block wx:if="{{index%2}}">
+            <view class="lineview" bg2>
+                <text>{{item}}</text>
+            </view>
+        </block> 
+    </block> -->
+    <!-- <block wx:for="{{list}}">
+        <block wx:if="{{index%2==0}}">
+            <view class="lineview bg1">
+                <text>{{item}}</text>
+            </view>
+        </block>
+        取奇数
+        <block wx:else="{{index%2}}">
+            <view class="lineview bg2">
+                <text>{{item}}</text>
+            </view>
+        </block>
+    </block> -->
+    <block wx:for="{{list}}">
+        <view class="lineview {{index%2==0 ? 'bg1':'bg2'}}">
+            <text>{{item}}</text>
+        </view>
+    </block>
+</view>
