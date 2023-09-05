@@ -1,0 +1,72 @@
+.pageview {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 241, 249);
+}
+.conl{
+    /* 取消换行 */
+    white-space: nowrap;
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+}
+.box{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    /* 保持子元素横向排列 会换行 */
+    display: inline-block;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.conl2{
+    width: 20%;
+    height: 80%;
+    border: 1px solid black;
+}
+.box3{
+    width: 100%;
+    height: 20%;
+    display: flex;  
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.conl3{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+.lineview{
+    width: 40%;
+    height: 15%;
+    border: 1px solid black;
+}
+.contentview{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    /* border: 1px solid black;
+    justify-content: center;
+    align-items: center; */
+}
+.item{
+    margin: 5px;
+    width: 40%;
+    height: 40%;
+    display: flex;  
+    border: 1px solid black;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,6 @@
+<view class="pageview">
+    <view class="box">
+        <image class="cimg" src="/res/images/1.png" mode="aspectFit" bindtap="click"></image>
+    </view>
+</view>
+<!-- <web-view src="https://www.bilibili.com"/> -->

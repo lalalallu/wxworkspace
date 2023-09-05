@@ -18,7 +18,10 @@
     "pages/two/two",
     "pages/three/three",
     "pages/shouye/shouye",
-    "pages/xiangqing/xiangqing"
+    "pages/xiangqing/xiangqing",
+    "pages/webpage/webpage",
+    "pages/web01/web01",
+    "pages/scroll/scroll"
   ],
   "window": {
     "backgroundTextStyle": "light",

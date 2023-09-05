@@ -1,0 +1,27 @@
+<view class="pageview">
+    <scroll-view class="conl" scroll-x="true">
+        <block wx:for="{{list}}">
+            <view class="box" bindtap="click">
+                <view class="box2">
+                    <image class="" src="{{avater}}" mode="aspectFit"></image>
+                </view>
+            </view>
+        </block>
+    </scroll-view>
+    <!-- <scroll-view class="conl2" scroll-y="true" >
+        <block wx:for="{{list}}">
+            <view class="box3">{{item}}</view>
+        </block>
+    </scroll-view> -->
+    <scroll-view class="conl3" scroll-y="true">
+        <!-- <block wx:for="{{list}}">
+            <view class="lineview"></view>
+        </block> -->
+        <view class="contentview">
+            <block wx:for="{{list}}">
+                <view class="item" bindtap="clickitem">
+                <image class="img" src="{{avater}}" mode="aspectFit"></image></view>
+            </block>
+        </view>
+    </scroll-view>
+</view>
