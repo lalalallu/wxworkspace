@@ -1,0 +1,18 @@
+<view class="pageview">
+    <scroll-view class="scview" scroll-y="true">
+        <view class="contentview">
+            <block wx:for="{{info}}">
+                <view class="item" bindtap="clickitem" data-website="{{item.url}}">
+                    <view class="nameview">
+                        <text>{{item.title}}</text>
+                    </view>
+                    <view class="cityview">
+                        <text>时间：{{item.date}}</text>
+                    </view>
+                    <view class="levelview">类型：{{item.category}}</view>
+                    <view class="webview">{{item.url}}</view>
+                </view>
+            </block>
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,26 @@
+<view class="pageview">
+    <view class="topview">
+        <input type="text" placeholder="请输入城市" class="inview" bindinput="inputclick" />
+        <view class="sarchview" bindtap="search">
+            <image class="cimg" src="/res/images/search.png" mode="aspectFit">
+                
+            </image>
+        </view>
+    </view>
+    <scroll-view class="scview" scroll-y="true">
+        <view class="contentview">
+            <block wx:for="{{info}}">
+                <view class="item" bindtap="clickitem" data-website="{{item.school_website}}">
+                    <view class="nameview">
+                        <text>{{item.school_name}}</text>
+                    </view>
+                    <view class="cityview">
+                        <text>地址：{{item.school_province}}</text>
+                    </view>
+                    <view class="levelview">等级：{{item.school_level}}</view>
+                    <view class="webview">网站：{{item.school_website}}</view>
+                </view>
+            </block>
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,13 @@
+<view class="pageview">
+    <scroll-view class="scview" scroll-y="true">
+        <view class="contentview">
+            <block wx:for="{{info}}">
+                <view class="item" bindtap="clickitem" data-type="{{item}}">
+                    <view class="nameview">
+                        <text>{{item}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </scroll-view>
+</view>

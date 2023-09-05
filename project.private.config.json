@@ -10,7 +10,7 @@
       "list": [
         {
           "name": "test",
-          "pathName": "pages/scroll/scroll",
+          "pathName": "pages/options/options",
           "query": "",
           "launchMode": "default",
           "scene": null

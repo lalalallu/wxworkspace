@@ -21,7 +21,11 @@
     "pages/xiangqing/xiangqing",
     "pages/webpage/webpage",
     "pages/web01/web01",
-    "pages/scroll/scroll"
+    "pages/scroll/scroll",
+    "pages/request/request",
+    "pages/input/input",
+    "pages/mynews/mynews",
+    "pages/options/options"
   ],
   "window": {
     "backgroundTextStyle": "light",
